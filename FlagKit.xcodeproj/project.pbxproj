@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0318F3DB1DA48D1C001C9F6C /* UniversalFramework_Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0318F3D81DA48D1C001C9F6C /* UniversalFramework_Base.xcconfig */; };
-		0318F3DC1DA48D1C001C9F6C /* UniversalFramework_Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0318F3D91DA48D1C001C9F6C /* UniversalFramework_Framework.xcconfig */; };
-		0318F3DD1DA48D1C001C9F6C /* UniversalFramework_Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0318F3DA1DA48D1C001C9F6C /* UniversalFramework_Test.xcconfig */; };
 		F47E01E41C609F960038898A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E01E31C609F960038898A /* Image.swift */; };
 		F47E01EB1C60AF0C0038898A /* FlagKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F47E01EA1C60AF0C0038898A /* FlagKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4AD7BD61BDD6EB200713F1B /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7BD51BDD6EB200713F1B /* FlagKit.xcassets */; };
@@ -17,9 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0318F3D81DA48D1C001C9F6C /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
-		0318F3D91DA48D1C001C9F6C /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
-		0318F3DA1DA48D1C001C9F6C /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
+		03CABB0D1DA49ECD00DFF12B /* Carthage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Carthage.xcconfig; sourceTree = "<group>"; };
 		F44A7B8A1D5FE3E200547A0B /* FlagKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagKitTests.swift; sourceTree = "<group>"; };
 		F44A7B8C1D5FE3E200547A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47E01DD1C6099340038898A /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -46,9 +41,7 @@
 		0318F3DE1DA48D22001C9F6C /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				0318F3D81DA48D1C001C9F6C /* UniversalFramework_Base.xcconfig */,
-				0318F3D91DA48D1C001C9F6C /* UniversalFramework_Framework.xcconfig */,
-				0318F3DA1DA48D1C001C9F6C /* UniversalFramework_Test.xcconfig */,
+				03CABB0D1DA49ECD00DFF12B /* Carthage.xcconfig */,
 			);
 			name = Configurations;
 			sourceTree = "<group>";
@@ -172,10 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0318F3DB1DA48D1C001C9F6C /* UniversalFramework_Base.xcconfig in Resources */,
 				F4AD7BD61BDD6EB200713F1B /* FlagKit.xcassets in Resources */,
-				0318F3DD1DA48D1C001C9F6C /* UniversalFramework_Test.xcconfig in Resources */,
-				0318F3DC1DA48D1C001C9F6C /* UniversalFramework_Framework.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +286,7 @@
 		};
 		F4AD7BC51BDD6B6D00713F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0318F3D91DA48D1C001C9F6C /* UniversalFramework_Framework.xcconfig */;
+			baseConfigurationReference = 03CABB0D1DA49ECD00DFF12B /* Carthage.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -318,7 +308,7 @@
 		};
 		F4AD7BC61BDD6B6D00713F1B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0318F3D91DA48D1C001C9F6C /* UniversalFramework_Framework.xcconfig */;
+			baseConfigurationReference = 03CABB0D1DA49ECD00DFF12B /* Carthage.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
