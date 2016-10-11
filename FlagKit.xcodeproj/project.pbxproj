@@ -288,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03CABB0D1DA49ECD00DFF12B /* Carthage.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -310,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03CABB0D1DA49ECD00DFF12B /* Carthage.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
